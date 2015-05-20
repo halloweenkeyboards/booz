@@ -14,12 +14,22 @@ body {
   margin-bottom: 40px;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  color: yellow;
+  background-color: black;
+  text-align: center;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 35px;
+}
+
 
 
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%; 
+ /* width: 100%; */
   /* Set the fixed height of the footer here */
   height: 40px;
   background-color: rgba(136,136,136,0.8);
@@ -166,5 +176,7 @@ ul.pagination {
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
 
-
+[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak {
+  display: none;
+}
 

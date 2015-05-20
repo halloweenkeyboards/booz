@@ -1,7 +1,7 @@
 (function(angular) {
 
 
-function mainController($scope, $http, shortcutCtrl, ngDialog) {
+function mainController($scope, $http, shortcutCtrl) {
 
 
 
@@ -23,7 +23,7 @@ function mainController($scope, $http, shortcutCtrl, ngDialog) {
 
   $scope.bevUnits = 'oz';
   $scope.entries = [];
-
+  
 
   $scope.calculate = function() {
     var newEntry = {};
@@ -93,9 +93,9 @@ function mainController($scope, $http, shortcutCtrl, ngDialog) {
     };
 
     $scope.selectBeer = function(beer,abv) {
-      console.log(beer);
+      //console.log(beer);
       $scope.bevName = beer;
-      $scope.bevAbv = Number(abv).toFixed(1);
+      $scope.bevAbv = Number(Number(abv).toFixed(1));
   
     };
 
@@ -135,6 +135,6 @@ function mainController($scope, $http, shortcutCtrl, ngDialog) {
 
 
 
-  angular.module("boozApp", ['shortcutService','ngDialog']).controller("mainController", ["$scope", "$http", 'shortcutCtrl', 'ngDialog', mainController]);
+  angular.module("boozApp", ['shortcutService']).controller("mainController", ["$scope", "$http", 'shortcutCtrl', mainController]);
 
 })(angular);

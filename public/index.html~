@@ -13,24 +13,27 @@
 
 	<!-- SCROLLS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"><!-- load bootstrap -->
-        <link rel="stylesheet" href="https://rawgit.com/likeastore/ngDialog/master/css/ngDialog.css">
+        <!--<link rel="stylesheet" href="https://rawgit.com/likeastore/ngDialog/master/css/ngDialog.css">-->
         <link rel="stylesheet" href="css/site.css">
         <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
 
 	<!-- SPELLS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script><!-- load angular -->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://rawgit.com/likeastore/ngDialog/master/js/ngDialog.js"></script>
+        <!-- <script src="https://rawgit.com/likeastore/ngDialog/master/js/ngDialog.js"></script> -->
 	<script src="js/core.js"></script>
         <script src="js/services/shortcutService.js"></script>
 
 </head>
 <!-- SET THE CONTROLLER AND GET ALL TODOS WITH INITIALIZE FUNCTION -->
-<body ng-controller="mainController">
+<body ng-controller="mainController" ng-cloak>
     <div class="container">
       <div class="row">
-  
+      <h1 class="col-md-3">Booz</h1>
+      </div>
+      <div class="row">  
         <div class="col-sm-4">
           <div class="entry-form shadow-man">
             <form role="form">
@@ -46,7 +49,7 @@
                 <div class="row">
                   <div class="col-xs-5">
                     <label for="bevCon">Containers</label>
-                    <input class="form-control" id="bevCon" type="text" ng-model="bevCon">
+                    <input class="form-control" id="bevCon" type="number" min="1" ng-model="bevCon">
                   </div>
                 </div>
 
@@ -54,7 +57,7 @@
                 <div class="row">
                   <div class="col-xs-5">
                     <label for="bevSize">Size</label>
-                    <input class="form-control" id="bevSize" type="text" ng-model="bevSize">
+                    <input class="form-control" id="bevSize" type="number" step="0.01" min="0" ng-model="bevSize">
                   </div>
 
                   <div class="col-xs-5">
@@ -69,14 +72,14 @@
                 <div class="row">
                   <div class="col-xs-5">
                     <label for="bevAbv">A.B.V.%</label>
-                    <input class="form-control" id="bevAbv" type="text" ng-model="bevAbv">
+                    <input class="form-control" id="bevAbv" type="number" step="0.01" min="0" max="100" ng-model="bevAbv">
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="col-xs-5">
                     <label for="bevCost">Price</label>
-                    <input class="form-control" id="bevCost" type="text" ng-model="bevCost">
+                    <input class="form-control" id="bevCost" type="number" step="0.01" min="0" ng-model="bevCost">
                   </div>
                 </div>
 
@@ -167,18 +170,14 @@
       <footer class="footer">
         <div class="container">
           <div class="row">
-              <div class="col-md-12 col-xs-12"><p>2015 Max McCarty</p></div>
+              <div class="col-md-12 col-xs-12 col-sm-12"><p>2015 Max McCarty</p>
+              <a href="/info">credits</a>
+              </div>
           </div>
         </div>
       </footer>
 
-    <script type="text/ng-template" id="popUpTemplate">
-    <div>
-      <div class="ngdialog-message">
-        <h1>21 or older?</h1>
-      </div>
-    </div>
-    </script>
+
 
 
 

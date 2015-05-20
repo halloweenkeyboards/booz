@@ -1,9 +1,9 @@
 {
-  "name"         : "node-todo",
-  "version"      : "0.0.0",
-  "description"  : "Simple todo application.",
+  "name"         : "booz",
+  "version"      : "0.1.0",
+  "description"  : "it helps you get drunk on the cheap.",
   "main"         : "server.js",
-  "author"       : "Scotch",
+  "author"       : "halloweenkeyboards",
   "dependencies" : {
     "express"    : "~4.7.2",
     "mongoose"   : "~3.6.2",

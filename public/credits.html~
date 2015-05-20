@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<style>
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h1>credits</h1><h2><a href="/">return to web app</a></h2><br />
+<a  href="http://www.brewerydb.com"><img height="40" src="http://s3.amazonaws.com/brewerydb/Powered-By-BreweryDB.png"></a>
+<p>Beer search courtesy of BreweryDB.</p><br />
+
+<p>Background image modified from original by Visitor7 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons.</p><br />
+
+<p>Container icons by Lorc via <a href="http://game-icons.net/about.html">Game-Icons.net</a>.</p><br />
+
+Please drink responsibly!
+
+</div>
+
+</body>
+</html>

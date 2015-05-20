@@ -82,6 +82,13 @@ module.exports = function(app) {
 	});
 **/
 	// application -------------------------------------------------------------
+
+
+        app.get('/info', function(req,res) {
+          res.sendfile('./public/credits.html');
+
+        });
+
 	app.get('*', function(req, res) {
 		res.sendfile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
 	});
