@@ -19,7 +19,7 @@
 
 
 	<!-- SPELLS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script><!-- load angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script><!-- load angular -->
 	<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.js"></script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <!-- <script src="https://rawgit.com/likeastore/ngDialog/master/js/ngDialog.js"></script> -->
