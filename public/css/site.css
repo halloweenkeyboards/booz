@@ -1,0 +1,170 @@
+
+html { 
+  overflow-y:scroll; 
+
+
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top:50px;
+  background-image: url('../images/backgrounds/bg2.png');
+  background-size: cover;
+
+  margin-bottom: 40px;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+ /* width: 100%; */
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: rgba(136,136,136,0.8);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+}
+
+
+
+
+
+.beer-search {
+  background-color: grey;
+  padding: 12px;
+  border-radius: 5px; 
+}
+
+.entry-form {
+  background-color: lightGreen;
+  padding: 12px;
+  border-radius: 5px; 
+}
+
+.container-shortcuts {
+  background-color: tomato;
+  padding: 12px;
+  border-radius: 5px; 
+}
+
+
+.entry {
+  background-color: lightBlue;
+  padding: 12px;
+  border-radius: 5px; 
+
+}
+
+
+
+#beer-search-results {
+  height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.search-input {
+  margin-bottom: 10px;
+
+}
+
+
+.btn {
+  margin-top: 7px;
+}
+
+.result-beer:hover {
+  color: white;
+  background-color: black;
+
+}
+
+
+
+.nobullets {
+  list-style-type: none;
+}
+
+
+
+
+img.page-icon {
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.active-icon {
+  background-color: darkRed;
+}
+
+ul.pagination {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.shadow-man {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+
+
+
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.noselect:hover {
+  cursor: default;
+}
+
+.noselect-click:hover {
+  cursor: pointer;
+}
+
+
+
+
+#shortcuts-list {
+  height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}
+
+
+.rating > div {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #888888;
+  text-align: center;
+
+}
+
+
+
+.dialog-pop-up {
+  color: red;
+
+}
+
+
+
+
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+

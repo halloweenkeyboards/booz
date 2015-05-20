@@ -1,0 +1,13 @@
+{
+  "name": "booz",
+  "version": "0.0.0",
+  "description": "\"it gets you drunk on the cheap\"",
+  "main": "server.js",
+  "authors": [
+    "halloweenkeyboards"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular-bootstrap": "~0.13.0"
+  }
+}
