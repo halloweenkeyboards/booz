@@ -13,7 +13,7 @@
 <body>
 
 <div class="container">
-<h1>credits</h1><h2><a href="/">return to web app</a></h2><br />
+<h1>credits</h1><h2><a href="/">&#60;&#60; return to web app</a></h2><br />
 <a  href="http://www.brewerydb.com"><img height="40" src="http://s3.amazonaws.com/brewerydb/Powered-By-BreweryDB.png"></a>
 <p>Beer search courtesy of BreweryDB.</p><br />
 
