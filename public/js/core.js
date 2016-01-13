@@ -90,7 +90,12 @@ function mainController($scope, $http, shortcutCtrl) {
         .error(function(data) {
           console.log('Error: ' + data);
         });
-    };
+        
+
+		  
+		  
+		  };  
+
 
     $scope.selectBeer = function(beer,abv) {
       //console.log(beer);
