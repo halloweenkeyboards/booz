@@ -2,7 +2,7 @@
 
 Price-Per-Ounce Alcoholic Beverage Calculator. 
 
-Beer Search provided by [BreweryDB](www.brewerydb.com/)
+Beer Search provided by [BreweryDB](http://www.brewerydb.com/)
 
 A Node app built with Angular.
 
