@@ -29,7 +29,7 @@ function mainController($scope, $http, shortcutCtrl) {
     var newEntry = {};
 
     newEntry.name = $scope.bevName;
-    if (newEntry.name.length>=20) {
+    if (newEntry.name.length>21) {
       newEntry.dispName = newEntry.name.substring(0,21) + "...";
     } else {
       newEntry.dispName = newEntry.name;
