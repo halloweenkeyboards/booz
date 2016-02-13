@@ -4,6 +4,9 @@
   "description"  : "it helps you get drunk on the cheap.",
   "main"         : "server.js",
   "author"       : "halloweenkeyboards",
+  "scripts"      : {
+    "start" : "node server.js"
+  },
   "dependencies" : {
     "express"    : "~4.7.2",
     "mongoose"   : "~3.6.2",
