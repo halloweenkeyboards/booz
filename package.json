@@ -1,18 +1,19 @@
 {
-  "name"         : "booz",
-  "version"      : "0.1.0",
-  "description"  : "it helps you get drunk on the cheap.",
-  "main"         : "server.js",
-  "author"       : "halloweenkeyboards",
-  "scripts"      : {
-    "start" : "node server.js"
+  "name": "booz",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "author": "halloweenkeyboards",
+  "scripts": {
+    "start": "node server.js"
   },
-  "dependencies" : {
-    "express"    : "~4.7.2",
-    "mongoose"   : "~3.6.2",
-    "morgan"	 : "~1.2.2",
-	"body-parser": "~1.5.2",
-	"method-override": "~2.1.2"
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "brewerydb-node": "0.0.1",
+    "express": "~4.7.2",
+    "method-override": "~2.1.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.2.2"
   },
   "engines": {
     "node": "0.10.38"
