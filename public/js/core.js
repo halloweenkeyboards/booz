@@ -23,6 +23,8 @@ function mainController($scope, $http, shortcutCtrl) {
 
   $scope.bevUnits = 'oz';
   $scope.entries = [];
+
+  $scope.gotItButtonHasBeenClicked = false;
   
 
   $scope.calculate = function() {
@@ -56,7 +58,7 @@ function mainController($scope, $http, shortcutCtrl) {
     $scope.bevSize = "";
     $scope.bevAbv = "";
     $scope.bevCost = "";
-    
+
   };
 
 
@@ -87,6 +89,11 @@ function mainController($scope, $http, shortcutCtrl) {
       }
     });
     
+    $scope.gotItButtonToggle = function() {
+      $scope.gotItButtonHasBeenClicked = true;      
+    }
+
+
     $scope.searchBeer = function() {
       $scope.nowLoading = true;
       $http.get('/api/beers' + $scope.searchQuery)
