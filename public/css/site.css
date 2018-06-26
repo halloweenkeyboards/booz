@@ -170,8 +170,17 @@ ul.pagination {
 
 }
 
+#overview p {
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #eee;
+  color: black;
+}
 
-
+.got-it-btn {
+  margin-top: -10px;
+  float: right;
+}
 
 
 .nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
