@@ -48,7 +48,15 @@ function mainController($scope, $http, shortcutCtrl) {
     newEntry.closed = false;
 
     //console.log(newEntry);
-    $scope.entries.push(newEntry)
+    $scope.entries.push(newEntry);
+
+
+    $scope.bevName = "";
+    $scope.bevCon = "";
+    $scope.bevSize = "";
+    $scope.bevAbv = "";
+    $scope.bevCost = "";
+    
   };
 
 
