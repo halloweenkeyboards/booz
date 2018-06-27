@@ -24,6 +24,10 @@ h1 {
   border-bottom-right-radius: 35px;
 }
 
+h1:hover {
+  cursor: default;
+}
+
 
 
 .footer {
@@ -180,6 +184,10 @@ ul.pagination {
 .got-it-btn {
   margin-top: -10px;
   float: right;
+}
+
+.btn-dark {
+  background-color: grey;
 }
 
 
